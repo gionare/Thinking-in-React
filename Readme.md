@@ -1,13 +1,11 @@
 ** JSON API and a mockup
    * The JSON API returns some data that looks like this:
-            [
-        { category: "Fruits", price: "$1", stocked: true, name: "Apple" },
-        { category: "Fruits", price: "$1", stocked: true, name: "Dragonfruit" },
-        { category: "Fruits", price: "$2", stocked: false, name: "Passionfruit" },
-        { category: "Vegetables", price: "$2", stocked: true, name: "Spinach" },
-        { category: "Vegetables", price: "$4", stocked: false, name: "Pumpkin" },
-        { category: "Vegetables", price: "$1", stocked: true, name: "Peas" }
-        ]
+
+        { "category": "Laptops", "price": "1600", "stocked": true, "name": "Macbook Pro M1" },
+        { "category": "Laptops", "price": "900", "stocked": true, "name": "UltraSlim Notebook" },
+  
+        { "category": "Smartphones", "price": "800", "stocked": true, "name": "Google Pixel 7" },
+        ...
 
     * The mockup looks like this:
         <img src="src/img/s_thinking-in-react_ui.png" alt="mockup preview" width="250px">
